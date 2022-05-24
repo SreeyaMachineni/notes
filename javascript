@@ -38,4 +38,16 @@ object.freeze()
 doesnt allow you to add new props
 seal() - doesnt allow you to add props, but allows you to modify
 
+this
+we cant use this in a function as the func has no idea what 'this' is abt
+so we use 'call'
+so we can cleantable.call(this/this.johnroom/this.garage,'args')
+
+to use this inside inner funtion
+-we need to assign that = this
+or again use call like innerfunc.call(this,args)
+or
+innerfunc.bind(this) or just use arrow func
+
+
 
