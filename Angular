@@ -1,3 +1,13 @@
+advt
+it's a framework, comes with webpack, routes, animation, etc configured
+has aot which reduces the load time
+has integrations with 3rd party libs
+DI, service worker,2 way binding
+davtg
+not seo friendly, but we can use universal
+big bundle size due to built in modules and zone.js
+
+
 ->DI
 -@self
  expects 'providers' to be mentioned in the component
@@ -25,4 +35,47 @@
  
  ->work flow
  angular.json-> main.ts(entry file)it sets the browser env by bootstrapping the appmodule -> app.module -> app.comp.ts -> now it has all files -> index.html
+ 
+ import vs require
+ common js
+ -require
+ -module.exports
+ -you can selectively load pieces of lib using require
+ -sync
+ -require will automatically scan node_modto find mods
+ 
+ ES6
+ -import
+ -export
+ -you can selectively load pieces of lib
+ -async
+ -we use babel to compile import for that to act as require
+ 
+ life cycle hooks
+ -on changes
+ -oninit
+ -ngdocheck
+ -ngcontentinit
+ -ngcontentchecked
+ -ngviewinit
+ -ngviewchecked
+ -ngdestroy
+ 
+ 
+ ang 12
+ moving to ivy engine
+ no ie11
+ strict by default
+ supports webpack5
+ ng build by default prod
+ 
+ 
+ ang 13
+ node >12.13
+ no support for ie11
+ ts 4.4
+ no implicit override
+ webpack cache by default
+ 
+ 
  
