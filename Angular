@@ -78,4 +78,17 @@ big bundle size due to built in modules and zone.js
  webpack cache by default
  
  
+ performance
+ - use source-map-tool to analyse
+ - use required imports
+ - lazy load mods
+ - use pure pipes instead of functions in components
+ if we use getsomething() to display, change detection runs too often and performace degrades. so use pure pipes which gets called only when  its params changes
+ -trackby for longlist
+ -move initialisation logic to outside angular zone to avoid unnecessary CD. like bar chart mouse movements
+ -CD strategy - onpush
+ -cdkvirtualscroll
+ 
+ 
+ 
  
