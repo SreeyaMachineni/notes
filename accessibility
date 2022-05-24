@@ -1,0 +1,23 @@
+1.semantics
+aside (like to place share btn to share the current page,this is related to the page)
+section (not related to page like a contact info)
+
+2.aria-label
+if we have multiple navs or menus we use aria-label so that it reads out the nav purpose to the users
+
+3.skiplink
+this is the first link, users with disability can click on it so that it goes to main content
+
+4.use appropriate elements like in the menu, we need to use btn (for drop down with a caret) so that screen readers understand that it's a btn
+we can actually use a div to style a dropdown but its not appropriate
+use btn to navigate within page and 'a' to navigate to other pages
+
+5.aria
+-in case we've to use div to act as a btn use
+<div aria-role = button>
+
+6.text-underline is useful so dont remove underline, use text-decoration-color istead
+
+7.use aria-hidden=true for 'decorative images' which has no meaning
+8.outline - shows that focussed element using overflow:hidden hides the outline
+9.aria-required= true
