@@ -1,0 +1,10 @@
+flex vs grid
+
+flex:
+-was 1st introduced, so it has more browser compatibility
+-its 1d - either row/column
+-used to style/position the inner elements
+
+grid:
+-used to create 2d layout
+-generally used to style the overall layout
