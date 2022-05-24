@@ -1,0 +1,28 @@
+->DI
+-@self
+ expects 'providers' to be mentioned in the component
+-@optional
+
+->encapsulation
+-emulated
+  - no shadow dom
+  - style encaps
+  - value -0
+  -default
+  -styles are scoped to component
+-none
+  - no shadow dom
+  - no style encaps
+  - value -2
+  - styles are not scoped to component
+  - styles are moved to head
+-native
+ -shadow dom
+ -no style encaps
+ -value 1
+ style is scoped to the component
+ 
+ 
+ ->work flow
+ angular.json-> main.ts(entry file)it sets the browser env by bootstrapping the appmodule -> app.module -> app.comp.ts -> now it has all files -> index.html
+ 
