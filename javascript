@@ -50,4 +50,8 @@ or
 innerfunc.bind(this) or just use arrow func
 
 
-
+for..in loop
+for(let i in arr) is a bad idea.
+it should be used with obj props
+here's why
+https://stackoverflow.com/questions/500504/why-is-using-for-in-for-array-iteration-a-bad-idea
