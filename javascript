@@ -55,3 +55,9 @@ for(let i in arr) is a bad idea.
 it should be used with obj props
 here's why
 https://stackoverflow.com/questions/500504/why-is-using-for-in-for-array-iteration-a-bad-idea
+
+
+delete vs splice
+why we try to remove array element using
+'delete' - it doesnt reindex array. when we try to access the element, it gives undefined
+'splice' - reindexes the array
